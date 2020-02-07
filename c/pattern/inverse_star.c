@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int i,j,n=9;                           //Star will even from values 1 to 9
+    int i,j,n=9;                           //Star will be even from values 1 to 9
     for(i=n;i>=1;i--)
     {
         for(j=1;j<=i-1;j++)
