@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int dig(int x)
 {
     int p=0;
@@ -23,7 +24,7 @@ int main()
         num/=10;
     }
     if(m==n)
-        printf("%d is an Armstrong Number\n",m);
+        printf("%d is an Armstrong Number\n",n);
     else
-        printf("%d is not an Armstrong Number\n",m);
+        printf("%d is not an Armstrong Number\n",n);
 }
