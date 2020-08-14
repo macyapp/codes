@@ -8,6 +8,8 @@ for i in range(len(num)):
       pr*=num[i]
    elif i<len(num)-1 and (num[i]+1)!=num[i+1] and (num[i-1]+1)==num[i]:
       pr*=num[i]
+   elif i<len(num)-1 and (num[i]+1)==num[i+1] and (num[i-1]+1)==num[i]:
+      pr*=num[i]
    elif i==len(num)-1 and (num[i-1]+1)==num[i]:
       pr*=num[i]
    else:
