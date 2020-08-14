@@ -2,7 +2,7 @@ num=input("Enter a number:")
 sml=0
 num=[int(x) for x in num]
 print(num)
-sum=list()
+suml=list()
 pr=1
 lim=len(num)-1
 for i in range(len(num)):
@@ -13,17 +13,15 @@ for i in range(len(num)):
          pr*=num[i]
       else:
          if pr!=1:
-            sum.append(pr)
+            suml.append(pr)
          pr=1
          continue
    else:
       if (num[i-1]+1)==num[i]:
          pr*=num[i]
          if pr!=1:
-            sum.append(pr)
-print(sum)
+            suml.append(pr)
+print(suml)
 
-for i in sum:
-   sml+=sum[i]
 
-print(sml)
+print(sum(suml))
