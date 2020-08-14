@@ -1,4 +1,4 @@
-num=input()
+num=input("Enter a number:")
 sml=0
 num=[int(x) for x in num]
 print(num)
@@ -25,5 +25,5 @@ print(sum)
 
 for i in sum:
    sml+=sum[i]
-   
+
 print(sml)
