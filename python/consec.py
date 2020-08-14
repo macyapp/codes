@@ -16,6 +16,7 @@ for i in range(len(numl)):
    if i!=lim:
       if (numl[i]+1)==numl[i+1]:
          pr*=numl[i]
+      #handles end of continuity
       elif (numl[i]+1)!=numl[i+1] and (numl[i-1]+1)==numl[i]:
          pr*=numl[i]
       else:
