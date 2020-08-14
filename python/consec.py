@@ -8,8 +8,10 @@ pr=1
 for i in range(len(num)):
    if num[i]!=0:
       numl.append(num[i])
+
 print(numl)
 lim=len(numl)-1
+
 for i in range(len(numl)):
    if i!=lim:
       if (numl[i]+1)==numl[i+1]:
