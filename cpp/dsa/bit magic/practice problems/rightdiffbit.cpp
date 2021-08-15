@@ -16,7 +16,8 @@ class Solution
     {
         // Your code here
         int k,res=0;
-        k=(m>n)?m-n:n-m;
+        //k=(m>n)?m-n:n-m;
+        k=m^n;
         k=k-(k&(k-1));
         while(k!=0) {
             res++;
