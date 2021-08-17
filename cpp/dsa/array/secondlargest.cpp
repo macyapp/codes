@@ -32,6 +32,9 @@ int seclargest(int a[], int n) {
 int main() {
     int ar[]={10,5,20,8};
     int size=sizeof(ar)/sizeof(ar[0]);
-    cout<<"Second Largest element "<<ar[seclargest(ar,size)]<<" is present at "<<seclargest(ar,size)+1<<'\n';
+    if(seclargest(ar,size)==-1)
+        cout<<"Second largest does not exist\n";
+    else
+        cout<<"Second Largest element "<<ar[seclargest(ar,size)]<<" is present at "<<seclargest(ar,size)+1<<'\n';
     return 0;
 }
