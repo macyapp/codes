@@ -4,12 +4,12 @@ using namespace std;
 void remDups(int a[], int *n) {
     int res=1,i;
     for(i=1;i<*n;i++) {
-        if(a[res-1]!=a[i]) {
-            a[res]=a[i];
+        if(a[res]!=a[i]) {
             res++;
+            a[res]=a[i];
         }
     }
-    *n=res;
+    *n=res+1;
 }
 
 void printarray(int a[], int n) {
