@@ -13,7 +13,7 @@ void remDups(int a[], int *n) {
             *n=*n-1;
         }
     }
-    for(i=0;i<res;i++) {
+    for(i=0;i<*n;i++) {
         a[i]=temp[i];
     }
 }
