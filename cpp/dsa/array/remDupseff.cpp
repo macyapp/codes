@@ -20,7 +20,7 @@ void printarray(int a[], int n) {
 }
 
 int main() {
-    int ar[]={10,20,20,20,20,30,30,30};
+    int ar[]={10,20,20,30,30,30};
     int size=sizeof(ar)/sizeof(ar[0]);
     cout<<"Array with duplicates:\n";
     printarray(ar,size);
