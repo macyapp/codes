@@ -18,6 +18,7 @@ int findOdd(int a[], int n) {
         }
         if(count%2!=0) {
             odd=a[i];
+            break;
         }
     }
     return odd;
