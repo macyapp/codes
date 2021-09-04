@@ -8,7 +8,7 @@ void printarray(int a[], int n) {
     cout<<'\n';
 }
 
-void maxdiff(int a[], int n) {
+void maxprofit(int a[], int n) {
     int i,max=0;
     for(i=0;i<n-1;i++) {
         if(a[i+1]>a[i]) {
@@ -23,7 +23,7 @@ int main() {
     int size=sizeof(ar)/sizeof(ar[0]);
     cout<<"Array:\n";
     printarray(ar,size);
-    maxdiff(ar, size);
+    maxprofit(ar, size);
     //cout<<"Array after rotation:\n";
     //printarray(ar,size);
     return 0;
