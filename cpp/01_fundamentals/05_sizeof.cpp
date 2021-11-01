@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std ;
 
-int main()
-{   
+int main() {   
     cout<< sizeof(int)      <<"\n"
         << sizeof(char)     <<"\n"
         << sizeof(long long)<<"\n"

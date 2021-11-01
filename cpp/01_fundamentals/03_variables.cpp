@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std ;
 
-int main()
-{   
+int main() {   
     // Camel Case:
     int rollNumber=2; 
     // Snake Case:
