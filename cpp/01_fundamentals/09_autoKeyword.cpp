@@ -7,5 +7,5 @@ int main()
     auto b = 10.5;
     cout<<a<<' '<<b<<'\n';
     cout<<typeid(a).name()<<' '<<typeid(b).name()<<'\n';
-    return 0 ;
+    return 0;
 }

@@ -12,5 +12,5 @@ int main() {
     int var=5;
     cout<<sizeof(var ++)<<"\n"; 
     cout<<var<<"\n" ; 
-    return 0 ;
+    return 0;
 }

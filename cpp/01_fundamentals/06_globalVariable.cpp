@@ -10,6 +10,6 @@ int main() {
         cout<<' '<<y<<' ';
     }
     cout<<x<<' ';
-    return 0 ;
+    return 0;
 }
 int x=5;    // x is initialized after using it

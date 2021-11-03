@@ -13,5 +13,5 @@ int main() {
         <<gender    <<"\n"
         <<isMarried <<"\n"
         <<height; 
-    return 0 ;
+    return 0;
 }

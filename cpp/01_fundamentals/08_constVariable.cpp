@@ -9,5 +9,5 @@ int main()
     cout<<"Enter the radius:\n";
     cin>>r;
     cout<<"Area is "<<PI*r*r;
-    return 0 ;
+    return 0;
 }
