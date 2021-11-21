@@ -26,6 +26,5 @@ public class Linear
     {
       System.out.println("Element not present");
     }
-    input.nextLine();
   }
 }
