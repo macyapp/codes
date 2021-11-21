@@ -36,5 +36,6 @@ public class Binary
         {
         System.out.println("Element not present");
         }
+        input.nextLine();
     }
 }
