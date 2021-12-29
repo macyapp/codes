@@ -7,7 +7,8 @@ int main() {
     freopen("output.txt","w",stdout);
     unsigned int x=1;
     int y=1;
-    cout<<(~x)<<'\n';
-    cout<<(~y)<<'\n';
+    cout<<"x = "<<x<<", y = "<<y<<'\n';
+    cout<<"~x = "<<(~x)
+        <<"\n~y = "<<(~y)<<'\n';
     return 0;
 }
