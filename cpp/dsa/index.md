@@ -1,1 +1,0 @@
-https://www.notion.so/macyapp/e147c9031aba47b684966dd1d2cff6d8?v=98b2a3563f5147f6a15d1701661a0f9f
